@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+
+* {
+  font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav> ul{
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a{
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.banner-img{
+  position: center;
+  max-width: 1440px
+  padding: 50px 240px;
+}
